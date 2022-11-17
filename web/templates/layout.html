@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="{{ url_for('static', filename='plugins/bootstrap/css/bootstrap.min.css') }}" />
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="{{ url_for('static', filename='plugins/fontawesome/css/all.min.css') }}" />
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="{{ url_for('static', filename='css/page_index.css') }}" />
+    <title>
+        {% if title %}
+            {{title}}
+        {% endif %} - EShop
+    </title>
+</head>
+<body>
+{% block content %}{% endblock %}
+</body>
+</html>

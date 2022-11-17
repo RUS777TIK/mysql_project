@@ -1,0 +1,19 @@
+{
+  "MySQL": {
+    "host": "",
+    "username": "",
+    "password": "",
+    "port": 3306,
+    "table": ""
+  },
+  "Logger": {
+    "console": {
+      "format": "<green>{time}</green> <level>{message}</level>"
+    },
+    "file": {
+      "path": "log",
+      "rotation": "5 MB",
+      "format": "{time} [{level}] {message}"
+    }
+  }
+}

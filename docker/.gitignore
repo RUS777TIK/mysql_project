@@ -1,0 +1,4 @@
+.env
+mysql/database
+mysql/files
+mysql/logs
